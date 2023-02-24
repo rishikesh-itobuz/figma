@@ -1,0 +1,133 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+/*Navbar starts here*/
+
+.navbar-items {
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+     color:orange;
+     
+}    
+  
+  /* Hero section style starts here*/
+.hero-section {
+  background-image: url('./img/Herotop.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vw;
+  
+}
+
+.hero-button button{
+  width: 49%;
+}
+
+/*About us section style starts  here*/
+.about-us{
+  position: relative;
+}
+.person-img{
+  width: 63%;
+}
+.about-container{
+  position: absolute;
+  top: 10vw;
+  left:60%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.consultation {
+  background-image: url("./img/lower-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Company details*/
+.company-detail{
+  color:#292E3D;
+  text-decoration: none;
+}
+
+
+
+
+/* Media query*/
+/* @media ((max-width: 1000px ) and (min-width:400px)) {
+  .text-about-us{
+    font-size: 14px;  
+  }
+  .text-for-more{
+    font-size: 12px;
+  }
+  .text-we-have-matured{
+    display: none;
+  }
+  .about-us{
+    row-gap: 2px;
+    position: absolute;
+    padding-top: 3px;
+    background-color: red;
+    padding-bottom: 0px;
+  }
+  .text-more-on{
+    font-size: 8px;
+    
+  }
+  
+} */
+
+@media (max-width: 776px) {
+  .navbar-items{
+    font-size: 14px;  
+  }
+  
+  
+}
+ 
+ @media (max-width: 540px) {
+   
+    .logo{
+      display: none;
+    }
+    .navbar-contact{
+      display: none;
+    }
+   
+  }
+
+
+  @media (max-width: 428px) {
+   
+    .logo{
+      display: none;
+    }
+    .navbar-service{
+      display: none;
+    }
+    .text-building-things{
+      font-size: 18px;
+    }
+    
+    
+  }
